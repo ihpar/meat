@@ -1,0 +1,537 @@
+Day 1
+  Matrix 1
+    Sensor 0
+      Heater Step 0, length: 641
+      Heater Step 1, length: 641
+      Heater Step 2, length: 641
+      Heater Step 3, length: 641
+      Heater Step 4, length: 641
+      Heater Step 5, length: 641
+      Heater Step 6, length: 640
+      Heater Step 7, length: 640
+      Heater Step 8, length: 640
+      Heater Step 9, length: 640
+    Sensor 1
+      Heater Step 0, length: 642
+      Heater Step 1, length: 641
+      Heater Step 2, length: 641
+      Heater Step 3, length: 641
+      Heater Step 4, length: 641
+      Heater Step 5, length: 641
+      Heater Step 6, length: 641
+      Heater Step 7, length: 641
+      Heater Step 8, length: 641
+      Heater Step 9, length: 641
+    Sensor 2
+      Heater Step 0, length: 382
+      Heater Step 1, length: 382
+      Heater Step 2, length: 382
+      Heater Step 3, length: 381
+      Heater Step 4, length: 381
+      Heater Step 5, length: 381
+      Heater Step 6, length: 381
+      Heater Step 7, length: 381
+      Heater Step 8, length: 381
+      Heater Step 9, length: 381
+    Sensor 3
+      Heater Step 0, length: 379
+      Heater Step 1, length: 379
+      Heater Step 2, length: 379
+      Heater Step 3, length: 379
+      Heater Step 4, length: 379
+      Heater Step 5, length: 378
+      Heater Step 6, length: 378
+      Heater Step 7, length: 378
+      Heater Step 8, length: 378
+      Heater Step 9, length: 378
+    Sensor 4
+      Heater Step 0, length: 260
+      Heater Step 1, length: 260
+      Heater Step 2, length: 260
+      Heater Step 3, length: 260
+      Heater Step 4, length: 260
+      Heater Step 5, length: 260
+      Heater Step 6, length: 259
+      Heater Step 7, length: 259
+      Heater Step 8, length: 259
+      Heater Step 9, length: 259
+    Sensor 5
+      Heater Step 0, length: 259
+      Heater Step 1, length: 259
+      Heater Step 2, length: 259
+      Heater Step 3, length: 259
+      Heater Step 4, length: 258
+      Heater Step 5, length: 258
+      Heater Step 6, length: 258
+      Heater Step 7, length: 258
+      Heater Step 8, length: 258
+      Heater Step 9, length: 258
+    Sensor 6
+      Heater Step 0, length: 282
+      Heater Step 1, length: 282
+      Heater Step 2, length: 282
+      Heater Step 3, length: 282
+      Heater Step 4, length: 282
+      Heater Step 5, length: 282
+      Heater Step 6, length: 282
+      Heater Step 7, length: 282
+      Heater Step 8, length: 282
+      Heater Step 9, length: 281
+    Sensor 7
+      Heater Step 0, length: 283
+      Heater Step 1, length: 283
+      Heater Step 2, length: 282
+      Heater Step 3, length: 282
+      Heater Step 4, length: 282
+      Heater Step 5, length: 282
+      Heater Step 6, length: 282
+      Heater Step 7, length: 282
+      Heater Step 8, length: 282
+      Heater Step 9, length: 282
+  Matrix 2
+    Sensor 0
+      Heater Step 0, length: 638
+      Heater Step 1, length: 638
+      Heater Step 2, length: 637
+      Heater Step 3, length: 637
+      Heater Step 4, length: 637
+      Heater Step 5, length: 637
+      Heater Step 6, length: 637
+      Heater Step 7, length: 637
+      Heater Step 8, length: 637
+      Heater Step 9, length: 637
+    Sensor 1
+      Heater Step 0, length: 642
+      Heater Step 1, length: 642
+      Heater Step 2, length: 642
+      Heater Step 3, length: 641
+      Heater Step 4, length: 641
+      Heater Step 5, length: 641
+      Heater Step 6, length: 641
+      Heater Step 7, length: 641
+      Heater Step 8, length: 641
+      Heater Step 9, length: 641
+    Sensor 2
+      Heater Step 0, length: 89
+      Heater Step 1, length: 89
+      Heater Step 2, length: 89
+      Heater Step 3, length: 89
+      Heater Step 4, length: 89
+      Heater Step 5, length: 89
+      Heater Step 6, length: 89
+      Heater Step 7, length: 89
+      Heater Step 8, length: 89
+      Heater Step 9, length: 89
+    Sensor 3
+      Heater Step 0, length: 90
+      Heater Step 1, length: 89
+      Heater Step 2, length: 89
+      Heater Step 3, length: 89
+      Heater Step 4, length: 89
+      Heater Step 5, length: 89
+      Heater Step 6, length: 89
+      Heater Step 7, length: 89
+      Heater Step 8, length: 89
+      Heater Step 9, length: 89
+    Sensor 4
+      Heater Step 0, length: 259
+      Heater Step 1, length: 259
+      Heater Step 2, length: 259
+      Heater Step 3, length: 259
+      Heater Step 4, length: 259
+      Heater Step 5, length: 259
+      Heater Step 6, length: 259
+      Heater Step 7, length: 259
+      Heater Step 8, length: 258
+      Heater Step 9, length: 258
+    Sensor 5
+      Heater Step 0, length: 259
+      Heater Step 1, length: 259
+      Heater Step 2, length: 259
+      Heater Step 3, length: 259
+      Heater Step 4, length: 259
+      Heater Step 5, length: 258
+      Heater Step 6, length: 258
+      Heater Step 7, length: 258
+      Heater Step 8, length: 258
+      Heater Step 9, length: 258
+    Sensor 6
+      Heater Step 0, length: 195
+      Heater Step 1, length: 195
+      Heater Step 2, length: 195
+      Heater Step 3, length: 195
+      Heater Step 4, length: 195
+      Heater Step 5, length: 195
+      Heater Step 6, length: 195
+      Heater Step 7, length: 195
+      Heater Step 8, length: 195
+      Heater Step 9, length: 195
+    Sensor 7
+      Heater Step 0, length: 193
+      Heater Step 1, length: 193
+      Heater Step 2, length: 193
+      Heater Step 3, length: 193
+      Heater Step 4, length: 193
+      Heater Step 5, length: 193
+      Heater Step 6, length: 193
+      Heater Step 7, length: 193
+      Heater Step 8, length: 193
+      Heater Step 9, length: 192
+Day 2
+  Matrix 1
+    Sensor 0
+      Heater Step 0, length: 669
+      Heater Step 1, length: 669
+      Heater Step 2, length: 669
+      Heater Step 3, length: 668
+      Heater Step 4, length: 668
+      Heater Step 5, length: 668
+      Heater Step 6, length: 668
+      Heater Step 7, length: 668
+      Heater Step 8, length: 668
+      Heater Step 9, length: 668
+    Sensor 1
+      Heater Step 0, length: 669
+      Heater Step 1, length: 669
+      Heater Step 2, length: 669
+      Heater Step 3, length: 669
+      Heater Step 4, length: 669
+      Heater Step 5, length: 669
+      Heater Step 6, length: 669
+      Heater Step 7, length: 668
+      Heater Step 8, length: 668
+      Heater Step 9, length: 668
+    Sensor 2
+      Heater Step 0, length: 398
+      Heater Step 1, length: 398
+      Heater Step 2, length: 398
+      Heater Step 3, length: 398
+      Heater Step 4, length: 398
+      Heater Step 5, length: 398
+      Heater Step 6, length: 398
+      Heater Step 7, length: 398
+      Heater Step 8, length: 398
+      Heater Step 9, length: 398
+    Sensor 3
+      Heater Step 0, length: 395
+      Heater Step 1, length: 395
+      Heater Step 2, length: 395
+      Heater Step 3, length: 395
+      Heater Step 4, length: 395
+      Heater Step 5, length: 395
+      Heater Step 6, length: 395
+      Heater Step 7, length: 395
+      Heater Step 8, length: 394
+      Heater Step 9, length: 394
+    Sensor 4
+      Heater Step 0, length: 271
+      Heater Step 1, length: 271
+      Heater Step 2, length: 271
+      Heater Step 3, length: 271
+      Heater Step 4, length: 271
+      Heater Step 5, length: 271
+      Heater Step 6, length: 271
+      Heater Step 7, length: 271
+      Heater Step 8, length: 270
+      Heater Step 9, length: 270
+    Sensor 5
+      Heater Step 0, length: 270
+      Heater Step 1, length: 270
+      Heater Step 2, length: 270
+      Heater Step 3, length: 270
+      Heater Step 4, length: 270
+      Heater Step 5, length: 269
+      Heater Step 6, length: 269
+      Heater Step 7, length: 269
+      Heater Step 8, length: 269
+      Heater Step 9, length: 269
+    Sensor 6
+      Heater Step 0, length: 294
+      Heater Step 1, length: 294
+      Heater Step 2, length: 294
+      Heater Step 3, length: 294
+      Heater Step 4, length: 294
+      Heater Step 5, length: 294
+      Heater Step 6, length: 294
+      Heater Step 7, length: 294
+      Heater Step 8, length: 294
+      Heater Step 9, length: 294
+    Sensor 7
+      Heater Step 0, length: 295
+      Heater Step 1, length: 295
+      Heater Step 2, length: 295
+      Heater Step 3, length: 295
+      Heater Step 4, length: 295
+      Heater Step 5, length: 295
+      Heater Step 6, length: 294
+      Heater Step 7, length: 294
+      Heater Step 8, length: 294
+      Heater Step 9, length: 294
+  Matrix 2
+    Sensor 0
+      Heater Step 0, length: 666
+      Heater Step 1, length: 666
+      Heater Step 2, length: 665
+      Heater Step 3, length: 665
+      Heater Step 4, length: 665
+      Heater Step 5, length: 665
+      Heater Step 6, length: 665
+      Heater Step 7, length: 665
+      Heater Step 8, length: 665
+      Heater Step 9, length: 665
+    Sensor 1
+      Heater Step 0, length: 670
+      Heater Step 1, length: 669
+      Heater Step 2, length: 669
+      Heater Step 3, length: 669
+      Heater Step 4, length: 669
+      Heater Step 5, length: 669
+      Heater Step 6, length: 669
+      Heater Step 7, length: 669
+      Heater Step 8, length: 669
+      Heater Step 9, length: 669
+    Sensor 2
+      Heater Step 0, length: 93
+      Heater Step 1, length: 93
+      Heater Step 2, length: 93
+      Heater Step 3, length: 93
+      Heater Step 4, length: 93
+      Heater Step 5, length: 93
+      Heater Step 6, length: 93
+      Heater Step 7, length: 93
+      Heater Step 8, length: 93
+      Heater Step 9, length: 92
+    Sensor 3
+      Heater Step 0, length: 93
+      Heater Step 1, length: 93
+      Heater Step 2, length: 93
+      Heater Step 3, length: 93
+      Heater Step 4, length: 93
+      Heater Step 5, length: 93
+      Heater Step 6, length: 93
+      Heater Step 7, length: 93
+      Heater Step 8, length: 93
+      Heater Step 9, length: 93
+    Sensor 4
+      Heater Step 0, length: 271
+      Heater Step 1, length: 271
+      Heater Step 2, length: 270
+      Heater Step 3, length: 270
+      Heater Step 4, length: 270
+      Heater Step 5, length: 270
+      Heater Step 6, length: 270
+      Heater Step 7, length: 270
+      Heater Step 8, length: 270
+      Heater Step 9, length: 270
+    Sensor 5
+      Heater Step 0, length: 270
+      Heater Step 1, length: 270
+      Heater Step 2, length: 270
+      Heater Step 3, length: 270
+      Heater Step 4, length: 270
+      Heater Step 5, length: 270
+      Heater Step 6, length: 270
+      Heater Step 7, length: 269
+      Heater Step 8, length: 269
+      Heater Step 9, length: 269
+    Sensor 6
+      Heater Step 0, length: 204
+      Heater Step 1, length: 204
+      Heater Step 2, length: 204
+      Heater Step 3, length: 204
+      Heater Step 4, length: 204
+      Heater Step 5, length: 204
+      Heater Step 6, length: 203
+      Heater Step 7, length: 203
+      Heater Step 8, length: 203
+      Heater Step 9, length: 203
+    Sensor 7
+      Heater Step 0, length: 202
+      Heater Step 1, length: 202
+      Heater Step 2, length: 202
+      Heater Step 3, length: 202
+      Heater Step 4, length: 202
+      Heater Step 5, length: 201
+      Heater Step 6, length: 201
+      Heater Step 7, length: 201
+      Heater Step 8, length: 201
+      Heater Step 9, length: 201
+Day 3
+  Matrix 1
+    Sensor 0
+      Heater Step 0, length: 671
+      Heater Step 1, length: 671
+      Heater Step 2, length: 671
+      Heater Step 3, length: 671
+      Heater Step 4, length: 671
+      Heater Step 5, length: 671
+      Heater Step 6, length: 670
+      Heater Step 7, length: 670
+      Heater Step 8, length: 670
+      Heater Step 9, length: 670
+    Sensor 1
+      Heater Step 0, length: 400
+      Heater Step 1, length: 400
+      Heater Step 2, length: 400
+      Heater Step 3, length: 400
+      Heater Step 4, length: 400
+      Heater Step 5, length: 400
+      Heater Step 6, length: 400
+      Heater Step 7, length: 400
+      Heater Step 8, length: 400
+      Heater Step 9, length: 400
+    Sensor 2
+      Heater Step 0, length: 400
+      Heater Step 1, length: 399
+      Heater Step 2, length: 399
+      Heater Step 3, length: 399
+      Heater Step 4, length: 399
+      Heater Step 5, length: 399
+      Heater Step 6, length: 399
+      Heater Step 7, length: 399
+      Heater Step 8, length: 399
+      Heater Step 9, length: 399
+    Sensor 3
+      Heater Step 0, length: 397
+      Heater Step 1, length: 397
+      Heater Step 2, length: 396
+      Heater Step 3, length: 396
+      Heater Step 4, length: 396
+      Heater Step 5, length: 396
+      Heater Step 6, length: 396
+      Heater Step 7, length: 396
+      Heater Step 8, length: 396
+      Heater Step 9, length: 396
+    Sensor 4
+      Heater Step 0, length: 272
+      Heater Step 1, length: 272
+      Heater Step 2, length: 272
+      Heater Step 3, length: 272
+      Heater Step 4, length: 272
+      Heater Step 5, length: 272
+      Heater Step 6, length: 272
+      Heater Step 7, length: 271
+      Heater Step 8, length: 271
+      Heater Step 9, length: 271
+    Sensor 5
+      Heater Step 0, length: 271
+      Heater Step 1, length: 271
+      Heater Step 2, length: 271
+      Heater Step 3, length: 271
+      Heater Step 4, length: 271
+      Heater Step 5, length: 270
+      Heater Step 6, length: 270
+      Heater Step 7, length: 270
+      Heater Step 8, length: 270
+      Heater Step 9, length: 270
+    Sensor 6
+      Heater Step 0, length: 295
+      Heater Step 1, length: 295
+      Heater Step 2, length: 295
+      Heater Step 3, length: 295
+      Heater Step 4, length: 295
+      Heater Step 5, length: 295
+      Heater Step 6, length: 295
+      Heater Step 7, length: 295
+      Heater Step 8, length: 295
+      Heater Step 9, length: 295
+    Sensor 7
+      Heater Step 0, length: 296
+      Heater Step 1, length: 296
+      Heater Step 2, length: 296
+      Heater Step 3, length: 296
+      Heater Step 4, length: 296
+      Heater Step 5, length: 296
+      Heater Step 6, length: 295
+      Heater Step 7, length: 295
+      Heater Step 8, length: 295
+      Heater Step 9, length: 295
+  Matrix 2
+    Sensor 0
+      Heater Step 0, length: 671
+      Heater Step 1, length: 671
+      Heater Step 2, length: 671
+      Heater Step 3, length: 670
+      Heater Step 4, length: 670
+      Heater Step 5, length: 670
+      Heater Step 6, length: 670
+      Heater Step 7, length: 670
+      Heater Step 8, length: 670
+      Heater Step 9, length: 670
+    Sensor 1
+      Heater Step 0, length: 675
+      Heater Step 1, length: 675
+      Heater Step 2, length: 674
+      Heater Step 3, length: 674
+      Heater Step 4, length: 674
+      Heater Step 5, length: 674
+      Heater Step 6, length: 674
+      Heater Step 7, length: 674
+      Heater Step 8, length: 674
+      Heater Step 9, length: 674
+    Sensor 2
+      Heater Step 0, length: 94
+      Heater Step 1, length: 94
+      Heater Step 2, length: 94
+      Heater Step 3, length: 94
+      Heater Step 4, length: 94
+      Heater Step 5, length: 93
+      Heater Step 6, length: 93
+      Heater Step 7, length: 93
+      Heater Step 8, length: 93
+      Heater Step 9, length: 93
+    Sensor 3
+      Heater Step 0, length: 94
+      Heater Step 1, length: 94
+      Heater Step 2, length: 94
+      Heater Step 3, length: 94
+      Heater Step 4, length: 94
+      Heater Step 5, length: 94
+      Heater Step 6, length: 94
+      Heater Step 7, length: 94
+      Heater Step 8, length: 94
+      Heater Step 9, length: 93
+    Sensor 4
+      Heater Step 0, length: 273
+      Heater Step 1, length: 273
+      Heater Step 2, length: 273
+      Heater Step 3, length: 273
+      Heater Step 4, length: 272
+      Heater Step 5, length: 272
+      Heater Step 6, length: 272
+      Heater Step 7, length: 272
+      Heater Step 8, length: 272
+      Heater Step 9, length: 272
+    Sensor 5
+      Heater Step 0, length: 272
+      Heater Step 1, length: 272
+      Heater Step 2, length: 272
+      Heater Step 3, length: 272
+      Heater Step 4, length: 272
+      Heater Step 5, length: 272
+      Heater Step 6, length: 272
+      Heater Step 7, length: 272
+      Heater Step 8, length: 272
+      Heater Step 9, length: 271
+    Sensor 6
+      Heater Step 0, length: 205
+      Heater Step 1, length: 205
+      Heater Step 2, length: 205
+      Heater Step 3, length: 205
+      Heater Step 4, length: 205
+      Heater Step 5, length: 205
+      Heater Step 6, length: 205
+      Heater Step 7, length: 205
+      Heater Step 8, length: 205
+      Heater Step 9, length: 205
+    Sensor 7
+      Heater Step 0, length: 203
+      Heater Step 1, length: 203
+      Heater Step 2, length: 203
+      Heater Step 3, length: 203
+      Heater Step 4, length: 203
+      Heater Step 5, length: 203
+      Heater Step 6, length: 203
+      Heater Step 7, length: 203
+      Heater Step 8, length: 203
+      Heater Step 9, length: 202
