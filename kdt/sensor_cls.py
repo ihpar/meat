@@ -41,14 +41,19 @@ class SensorCls:
 
         return cls_data_list
 
-    def get_interpolated_data(self):
+    def get_interpolated_data(self, force_num_samples: int = None):
         cls_data_list = []
         for raw_cls_data in self._raw_cls_data_list:
             cls = raw_cls_data["class"]
             start = raw_cls_data["start"]
             end = raw_cls_data["end"]
             heater_data_list = raw_cls_data["heater_data_list"]
-            num_samples = max([el["num_samples"] for el in heater_data_list])
+
+            if force_num_samples:
+                num_samples = force_num_samples
+            else:
+                num_samples = max([el["num_samples"]
+                                  for el in heater_data_list])
 
             sample_times = np.linspace(start, end, num_samples)
             interp_heater_data_list = []
@@ -60,8 +65,9 @@ class SensorCls:
                 "class": cls,
                 "start": start,
                 "end": end,
-                "sample_times": sample_times,
-                "sample_vals": np.array(interp_heater_data_list)
+                "time_arr": sample_times,
+                "X": np.array(interp_heater_data_list),
+                "y": np.array([cls] * num_samples, dtype=np.int32)
             })
 
         return cls_data_list

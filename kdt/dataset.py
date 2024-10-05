@@ -31,14 +31,59 @@ class Dataset:
                     self._sensor_classes[f"day{day}"][f"mat{mat}"].append(s)
 
     def get_sensor_cls(self, day, mat, sensor):
-        s = self._sensor_classes[f"day{day}"][f"mat{mat}"][sensor]
-        interpolated_data = s.get_interpolated_data()
+        s: SensorCls = self._sensor_classes[f"day{day}"][f"mat{mat}"][sensor]
+        interpolated_data = s.get_interpolated_data(force_num_samples=100)
         X = np.array([[]] * 10)
-        y = []
+        y = np.array([], dtype=np.int32)
+        time_arr = np.array([])
         for cls_data in interpolated_data:
-            cls = cls_data["class"]
-            x = cls_data["sample_vals"]
-            X = np.append(X, x, axis=1)
-            cls_list = [cls] * len(cls_data["sample_times"])
-            y.extend(cls_list)
-        return X.T, np.array(y)
+            X = np.append(X, cls_data["X"], axis=1)
+            y = np.append(y, cls_data["y"])
+            time_arr = np.append(time_arr, cls_data["time_arr"])
+        return X.T, y, time_arr
+
+    def get_sensor_pair_cls(self, day, mat, sensor_pair):
+        if len(sensor_pair) != 2:
+            raise Exception("sensors_list must contain exactly 2 sensor ids!")
+
+        s1: SensorCls = self._sensor_classes[
+            f"day{day}"][f"mat{mat}"][sensor_pair[0]]
+        s2: SensorCls = self._sensor_classes[
+            f"day{day}"][f"mat{mat}"][sensor_pair[1]]
+
+        num_samples = 100
+        s1_data = s1.get_interpolated_data(force_num_samples=num_samples)
+        s2_data = s2.get_interpolated_data(force_num_samples=num_samples)
+
+        X = np.array([[]] * 20)
+        y = np.array([], dtype=np.int32)
+        time_arr = np.array([])
+        for cls_data_1, cls_data_2 in zip(s1_data, s2_data):
+            if not (cls_data_1["y"] == cls_data_2["y"]).all():
+                raise Exception(f"Classes are not the same!")
+
+            if not (cls_data_1["time_arr"] == cls_data_2["time_arr"]).all():
+                raise Exception(f"Time arrays are not the same!")
+
+            X_1 = cls_data_1["X"]
+            X_2 = cls_data_2["X"]
+            X_1_2 = np.append(X_1, X_2, axis=0)
+            X = np.append(X, X_1_2, axis=1)
+            y = np.append(y, cls_data_1["y"])
+            time_arr = np.append(time_arr, cls_data_1["time_arr"])
+        return X.T, y, time_arr
+
+
+if __name__ == "__main__":
+    import pickle
+    with open("kdt/sensor_data_filtered.pkl", "rb") as f:
+        sensor_data = pickle.load(f)
+
+    with open("kdt/sensor_labels.pkl", "rb") as f:
+        labels = pickle.load(f)
+
+    with open("kdt/interpolation_functions.pkl", "rb") as f:
+        interp_funcs = pickle.load(f)
+
+    dataset = Dataset(sensor_data, labels, interp_funcs)
+    X, y, time_arr = dataset.get_sensor_pair_cls(1, 1, (0, 1))
