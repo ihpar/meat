@@ -1,4 +1,4 @@
-classes = ["Cattle", "Sheep", "Fowl", "Air"]
+classes = ["Cattle", "Sheep", "Chicken", "Air"]
 colors = ["#FF00EB", "#FF9400", "#00FF14", "#006BFF"]
 COW = 0
 SHEEP = 1
